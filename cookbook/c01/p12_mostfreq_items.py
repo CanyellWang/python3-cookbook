@@ -15,6 +15,7 @@ def most_freqency():
     ]
     from collections import Counter
     word_counts = Counter(words)
+    print word_counts
     # 出现频率最高的3个单词
     top_three = word_counts.most_common(3)
     print(top_three)
